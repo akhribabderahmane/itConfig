@@ -1,0 +1,3524 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "3",
+      "email": "la_akhrib@esi.dz",
+      "password": "1111"
+    },
+    {
+      "id": "4",
+      "email": "test@test",
+      "password": "test"
+    },
+    {
+      "id": "5",
+      "email": "abdrahmaneakhrib@gmail.com",
+      "password": "aaaa"
+    },
+    {
+      "id": "6",
+      "email": "abdrahmaneahrib@gmail.com",
+      "password": "111"
+    },
+    {
+      "id": 7,
+      "email": "test1@test1",
+      "password": "test1"
+    }
+  ],
+  "server": {
+    "name": "My Server",
+    "ip": "192.168.1.100",
+    "port": 8080,
+    "total_bandwidth": 24,
+    "used_bandwidth": 0
+  },
+  "clients": [
+    {
+      "id": "4bb045ff-d65f-46b0-a398-4ff96bc5e9c9",
+      "name": "Verona.Rolfson",
+      "ip": "122.238.206.33",
+      "port": 8190,
+      "subscription": 11,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 15,
+      "current_allocated_bandwidth": 12,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.092Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-18T012:29:53.092Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-18T014:29:53.092Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-18T016:29:53.092Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-18T10:29:53.092Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 1000
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.092Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.092Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.092Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.092Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.092Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.092Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.092Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.092Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.092Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.092Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.092Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.092Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.092Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.092Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.092Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.092Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.092Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.092Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.092Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.092Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.092Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.092Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.092Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.092Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.092Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.092Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.092Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.092Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 14
+        }
+      ]
+    },
+    {
+      "id": "054e4630-d377-440e-89c3-4b662d4ab0f0",
+      "name": "Casper32",
+      "ip": "145.152.57.4",
+      "port": 8247,
+      "subscription": 4,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 16,
+      "current_allocated_bandwidth": 4,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.093Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.093Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.093Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.093Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.093Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.093Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.093Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.093Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.093Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.093Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.093Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.093Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.093Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.093Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.093Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.093Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.093Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.093Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.093Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.093Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.093Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.093Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.093Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.093Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.093Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.093Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.093Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.093Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.093Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.093Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 1
+        }
+      ]
+    },
+    {
+      "id": "83b7805e-4f34-456d-a6c0-372d526bc576",
+      "name": "Marilou.Watsica88",
+      "ip": "225e:3fbc:b8fe:a9de:6f8b:898e:8ca6:c2cb",
+      "port": 8190,
+      "subscription": 1,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 14,
+      "current_allocated_bandwidth": 8,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.094Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.094Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.094Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.094Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.094Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.094Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.094Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.094Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.094Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.094Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.094Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.094Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.094Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.094Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.094Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.094Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.094Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.094Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.094Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.094Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.094Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.094Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.094Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.094Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.094Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 8
+        }
+      ]
+    },
+    {
+      "id": "9be9f36f-8889-4c8e-9e66-0c6578d56064",
+      "name": "Larue.Rowe2",
+      "ip": "110.172.13.62",
+      "port": 8174,
+      "subscription": 8,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 5,
+      "current_allocated_bandwidth": 8,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.094Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.094Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.094Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.094Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.094Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.094Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.094Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.094Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.094Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.094Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.094Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.094Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.094Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.094Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.094Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.094Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.094Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.094Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.094Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.094Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.094Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.094Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.094Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.094Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.094Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.094Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.094Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.094Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 1
+        }
+      ]
+    },
+    {
+      "id": "683e373d-54bd-45bb-8cd5-917ca23a0727",
+      "name": "Vergie.Kerluke",
+      "ip": "2f0c:1eb9:638e:1d30:5a8b:cdcb:6c95:278b",
+      "port": 8878,
+      "subscription": 4,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 17,
+      "current_allocated_bandwidth": 7,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.095Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.095Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.095Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.095Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.095Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.095Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.095Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.095Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.095Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.095Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.095Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.095Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.095Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.095Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.095Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.095Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.095Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.095Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.095Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.095Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.095Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.095Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.095Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.095Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.095Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 16
+        }
+      ]
+    },
+    {
+      "id": "00f6a68d-d1f5-474d-94b5-e29b77e36399",
+      "name": "Jeramy.Dietrich47",
+      "ip": "200.210.63.34",
+      "port": 8320,
+      "subscription": 9,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 8,
+      "current_allocated_bandwidth": 13,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.095Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.095Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.095Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.095Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.095Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.095Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.095Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.095Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.095Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.095Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.095Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.095Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.095Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.095Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.095Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.095Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.095Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.095Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.095Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.095Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.095Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 10
+        }
+      ]
+    },
+    {
+      "id": "d1c375c8-60d0-4594-a75d-5adff0ac39e5",
+      "name": "Macey.Fritsch",
+      "ip": "42.172.26.25",
+      "port": 8652,
+      "subscription": 8,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 7,
+      "current_allocated_bandwidth": 16,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.095Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.095Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.095Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.095Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.095Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.095Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.095Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.095Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.095Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.095Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.095Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.095Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.095Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.095Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.095Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.095Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.095Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.095Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.095Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.095Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.095Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.095Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.095Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 13
+        }
+      ]
+    },
+    {
+      "id": "d4f2e334-fd21-4819-ac84-6c17b0b46d85",
+      "name": "Moses_Smitham90",
+      "ip": "111.95.140.49",
+      "port": 8215,
+      "subscription": 11,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 11,
+      "current_allocated_bandwidth": 10,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.096Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.096Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.096Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.096Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.096Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.096Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.096Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.096Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.096Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.096Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.096Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.096Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.096Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.096Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.096Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.096Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.096Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.096Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.096Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.096Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.096Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.096Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.096Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.096Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.096Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.096Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.096Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.096Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.096Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.096Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 16
+        }
+      ]
+    },
+    {
+      "id": "3dc90705-63b1-4b79-90da-d1caa0f200e9",
+      "name": "Christopher_Ankunding20",
+      "ip": "160.167.241.27",
+      "port": 8305,
+      "subscription": 2,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 6,
+      "current_allocated_bandwidth": 13,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.096Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.096Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.096Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.096Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.096Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.096Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.096Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.096Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.096Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.096Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.096Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.096Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.096Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.096Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.096Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.096Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.096Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.096Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.096Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.096Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.096Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.096Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.096Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.096Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.096Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.096Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.096Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.096Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.096Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.096Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 18
+        }
+      ]
+    },
+    {
+      "id": "859a332e-2536-4d75-aa52-61ffa65a6e9a",
+      "name": "Kian_Hammes",
+      "ip": "a2be:2eeb:2dda:eb3e:72ff:9a5e:74ea:948b",
+      "port": 8590,
+      "subscription": 4,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 6,
+      "current_allocated_bandwidth": 4,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.099Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.099Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.099Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.099Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.099Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.099Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.099Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.099Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.099Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.099Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.099Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.099Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.099Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.099Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.099Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.099Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 2
+        }
+      ]
+    },
+    {
+      "id": "bc2a564e-716d-4385-b1b0-17e8a1ec0211",
+      "name": "Yesenia_Watsica",
+      "ip": "251.192.226.227",
+      "port": 8915,
+      "subscription": 2,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 7,
+      "current_allocated_bandwidth": 18,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.099Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.099Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.099Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.099Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.099Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.099Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.099Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.099Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.099Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.099Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.099Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.099Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.099Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.099Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.099Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 19
+        }
+      ]
+    },
+    {
+      "id": "870beb1c-0329-4617-847d-40d32ce4431f",
+      "name": "Jermain_OKon",
+      "ip": "24.228.43.133",
+      "port": 8430,
+      "subscription": 6,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 18,
+      "current_allocated_bandwidth": 11,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.099Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.099Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.099Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.099Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.099Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.099Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.099Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.099Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.099Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.099Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.099Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.099Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.099Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.099Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.099Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.099Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.099Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.099Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.099Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.099Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.099Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 2
+        }
+      ]
+    },
+    {
+      "id": "1aa58586-62a2-412d-9946-b47459818871",
+      "name": "Ernestina_Wuckert",
+      "ip": "181.5.3.107",
+      "port": 8620,
+      "subscription": 2,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 14,
+      "current_allocated_bandwidth": 4,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.100Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.100Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.100Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.100Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.100Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.100Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.100Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.100Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.100Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.100Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.100Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.100Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.100Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.100Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.100Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.100Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.100Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.100Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 8
+        }
+      ]
+    },
+    {
+      "id": "24f39caf-b23e-48b1-947a-8deaba4ea677",
+      "name": "Koby27",
+      "ip": "120.237.54.66",
+      "port": 8672,
+      "subscription": 8,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 11,
+      "current_allocated_bandwidth": 14,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.100Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.100Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.100Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.100Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.100Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.100Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.100Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.100Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.100Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.100Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.100Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.100Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.100Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.100Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.100Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.100Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.100Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.100Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.100Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.100Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 15
+        }
+      ]
+    },
+    {
+      "id": "a2fe556e-aee5-40d6-8a06-9c791ea5355b",
+      "name": "Yesenia.Harvey73",
+      "ip": "9c05:bc9e:acc2:1be6:6870:e1de:bcb6:574f",
+      "port": 8028,
+      "subscription": 9,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 7,
+      "current_allocated_bandwidth": 6,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.100Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.100Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.100Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.100Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.100Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.100Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.100Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.100Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.100Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.100Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.100Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.100Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 5
+        }
+      ]
+    },
+    {
+      "id": "76c02563-458f-4e2c-bacc-e7e1cd5c1864",
+      "name": "Minerva_McGlynn",
+      "ip": "fada:2b93:f189:01c1:c3db:f2a1:13d9:b911",
+      "port": 8073,
+      "subscription": 11,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 6,
+      "current_allocated_bandwidth": 18,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.100Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.100Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.100Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.100Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.100Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.100Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.100Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.100Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.100Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.100Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.100Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.100Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.100Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.100Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.100Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.100Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.100Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.100Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.100Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 7
+        }
+      ]
+    },
+    {
+      "id": "9a11b5f4-dfa8-4bc0-a1e7-58988b02bdb7",
+      "name": "Karli_Bernier67",
+      "ip": "228a:9ec9:ec0a:c5ae:c31d:2af1:fefc:feac",
+      "port": 8813,
+      "subscription": 8,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 9,
+      "current_allocated_bandwidth": 1,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.101Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.101Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.101Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.101Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.101Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.101Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.101Z",
+          "requested_bandwidth": 9,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.101Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.101Z",
+          "requested_bandwidth": 2,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.101Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.101Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.101Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.101Z",
+          "requested_bandwidth": 1,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.101Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.101Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.101Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 33,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.101Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 7
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.101Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.101Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.101Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.101Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 39,
+          "allocated_bandwidth": 2
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.101Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.101Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 20,
+          "allocated_bandwidth": 4
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.101Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.101Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.101Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.101Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.101Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.101Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.101Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 11
+        }
+      ]
+    },
+    {
+      "id": "4fe02d6f-da7e-4d76-a4d6-e7a1fd0fd8d6",
+      "name": "Norwood_Hagenes4",
+      "ip": "9a6b:16ec:fa8d:cba4:8bdd:0c8f:e8d1:608b",
+      "port": 8721,
+      "subscription": 9,
+      "connection_status": "connected",
+      "current_requested_bandwidth": 2,
+      "current_allocated_bandwidth": 5,
+      "bandwidth_logs": [
+        {
+          "timestamp": "2024-10-19T01:29:53.101Z",
+          "requested_bandwidth": 15,
+          "max_bandwidth": 40,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-18T01:29:53.101Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-17T01:29:53.101Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-10-16T01:29:53.101Z",
+          "requested_bandwidth": 16,
+          "max_bandwidth": 37,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-15T01:29:53.101Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 12
+        },
+        {
+          "timestamp": "2024-10-14T01:29:53.101Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 13
+        },
+        {
+          "timestamp": "2024-10-13T01:29:53.101Z",
+          "requested_bandwidth": 6,
+          "max_bandwidth": 32,
+          "allocated_bandwidth": 9
+        },
+        {
+          "timestamp": "2024-10-12T01:29:53.101Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-11T01:29:53.101Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 28,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-10-10T01:29:53.101Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 23,
+          "allocated_bandwidth": 8
+        },
+        {
+          "timestamp": "2024-10-09T01:29:53.101Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-10-08T01:29:53.101Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-10-07T01:29:53.101Z",
+          "requested_bandwidth": 3,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 5
+        },
+        {
+          "timestamp": "2024-10-06T01:29:53.101Z",
+          "requested_bandwidth": 20,
+          "max_bandwidth": 21,
+          "allocated_bandwidth": 14
+        },
+        {
+          "timestamp": "2024-10-05T01:29:53.101Z",
+          "requested_bandwidth": 17,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-10-04T01:29:53.101Z",
+          "requested_bandwidth": 5,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-10-03T01:29:53.101Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 31,
+          "allocated_bandwidth": 10
+        },
+        {
+          "timestamp": "2024-10-02T01:29:53.101Z",
+          "requested_bandwidth": 18,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-10-01T01:29:53.101Z",
+          "requested_bandwidth": 13,
+          "max_bandwidth": 27,
+          "allocated_bandwidth": 20
+        },
+        {
+          "timestamp": "2024-09-30T01:29:53.101Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 36,
+          "allocated_bandwidth": 6
+        },
+        {
+          "timestamp": "2024-09-29T01:29:53.101Z",
+          "requested_bandwidth": 12,
+          "max_bandwidth": 38,
+          "allocated_bandwidth": 1
+        },
+        {
+          "timestamp": "2024-09-28T01:29:53.101Z",
+          "requested_bandwidth": 19,
+          "max_bandwidth": 34,
+          "allocated_bandwidth": 3
+        },
+        {
+          "timestamp": "2024-09-27T01:29:53.101Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 35,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-26T01:29:53.101Z",
+          "requested_bandwidth": 14,
+          "max_bandwidth": 24,
+          "allocated_bandwidth": 17
+        },
+        {
+          "timestamp": "2024-09-25T01:29:53.101Z",
+          "requested_bandwidth": 7,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 15
+        },
+        {
+          "timestamp": "2024-09-24T01:29:53.101Z",
+          "requested_bandwidth": 11,
+          "max_bandwidth": 30,
+          "allocated_bandwidth": 11
+        },
+        {
+          "timestamp": "2024-09-23T01:29:53.101Z",
+          "requested_bandwidth": 8,
+          "max_bandwidth": 22,
+          "allocated_bandwidth": 16
+        },
+        {
+          "timestamp": "2024-09-22T01:29:53.101Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 25,
+          "allocated_bandwidth": 19
+        },
+        {
+          "timestamp": "2024-09-21T01:29:53.101Z",
+          "requested_bandwidth": 4,
+          "max_bandwidth": 26,
+          "allocated_bandwidth": 18
+        },
+        {
+          "timestamp": "2024-09-20T01:29:53.101Z",
+          "requested_bandwidth": 10,
+          "max_bandwidth": 29,
+          "allocated_bandwidth": 15
+        }
+      ]
+    }
+  ]
+}
