@@ -59,8 +59,8 @@ const Circle = () => {
       },
     };
     chartData.forEach((item) => {
-      config[item.name.toLowerCase()] = {
-        label: item.name,
+      config[item.id] = {
+        label: item.id,
         color: item.color,
       };
     });
