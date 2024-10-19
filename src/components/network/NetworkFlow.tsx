@@ -16,7 +16,7 @@ const server = {
   name: "IT config",
   ip: "192.168.1.100",
   port: 8080,
-  total_bandwidth: 24,
+  total_bandwidth: 3000,
   used_bandwidth: 0,
 };
 const initialServerNode = [
@@ -58,7 +58,7 @@ const NetworkFlow = () => {
   useEffect(() => {
     const fetchClients = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/clients"); // Replace with your actual URL
+        const response = await axios.get("http://localhost:5000/api/traffic/clients"); // Replace with your actual URL
         const clientData = response.data;
 
         // Create client nodes based on the fetched data
@@ -67,7 +67,7 @@ const NetworkFlow = () => {
         .map((client, index) => ({
           id: `client-${client.id}`,
           type: "clientNode",
-          position: { x: -1000 + index * 300, y: 400 + (index % 6) * 4 }, // Dynamically position nodes
+          position: { x: 0 + index * 300, y: 300 + (index % 6) * 4 }, // Dynamically position nodes
           data: { ...client, index: index + 1 }, // Include the index in the data
         }));
 
