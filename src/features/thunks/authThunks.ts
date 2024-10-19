@@ -14,20 +14,10 @@ export const signupUser = (credentials: Credentials) => async (dispatch: any) =>
     try {
         dispatch(startLoading());
 
-        // Fetch users to check if the email already exists
-        const users = await fetchUsers();
-        const existingUser = users.find((u: any) => u.email === credentials.email);
-
-        if (existingUser) {
-            throw new Error('Email already registered');
-        }
-
-        // Add new user to the JSON server
-        const newUser = { ...credentials, id: users.length + 1 };
-        await axios.post('http://localhost:3000/users', newUser);
-
+        const response = await axios.post("http://localhost:5000/api/auth/register", credentials)
+        const newUser = response.data; // New user data
         // Automatically log in the user after signup
-        dispatch(loginSuccess(newUser)); // Mark the new user as authenticated
+        dispatch(loginSuccess(newUser.token)); // Mark the new user as authenticated
     } catch (error: any) {
         dispatch(authError(error.message));
     } finally {
@@ -40,16 +30,11 @@ export const loginUser = (credentials: Credentials) => async (dispatch: any) => 
     try {
         dispatch(startLoading());
 
-        // Fetch users and find matching credentials
-        const users = await fetchUsers();
-        const user = users.find((u: any) => u.email === credentials.email && u.password === credentials.password);
-
-        if (!user) {
-            throw new Error('Invalid email or password');
-        }
+        const response = await axios.post("http://localhost:5000/api/auth/login", credentials)
+        const user = response.data;
 
         // Log in the user if credentials match
-        dispatch(loginSuccess(user)); // Mark the user as authenticated
+        dispatch(loginSuccess(user.token)); // Mark the user as authenticated
     } catch (error: any) {
         dispatch(authError(error.message));
     } finally {

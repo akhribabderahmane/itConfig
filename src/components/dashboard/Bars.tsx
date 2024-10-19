@@ -45,6 +45,9 @@ const Bars = () => {
   const clients = useSelector((state: RootState) => state.client.clients);
   const clientStatus = useSelector((state: RootState) => state.client.status);
   const [chartData, setChartData] = useState([]);
+
+
+
   useEffect(() => {
     if (clientStatus === "idle") {
       dispatch(fetchClients()); // Fetch server data when component mounts

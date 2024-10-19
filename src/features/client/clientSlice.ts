@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BASE_URL="http://localhost:3000/clients"
+const BASE_URL="http://localhost:5000"
 const initialState = {
     clients: [], // Array to hold client data
     status: 'idle', // 'idle' | 'loading' | 'succeeded' | 'failed'
@@ -11,7 +11,7 @@ const initialState = {
 export const fetchClients = createAsyncThunk(
     'clients/fetchClients',
     async () => {
-        const response = await axios.get(BASE_URL);
+        const response = await axios.get(BASE_URL+"/api/traffic/clients/logs");
         return response.data; // Assuming it returns an array of clients
     }
 );
