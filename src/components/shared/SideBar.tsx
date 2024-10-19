@@ -11,21 +11,21 @@ const SideBar = () => {
     navigate(item.link);
   };
   return (
-    <div className=" w-[380px] min-h-screen  flex flex-col justify-between px-4 py-6 shadow-xl">
+    <div className=" w-[340px] min-h-screen  flex flex-col justify-between px-4 py-6 shadow-xl">
       <div>
       <div className=" flex flex-row gap-2 pl-4 mb-20 ">
-        <img src="./Logo.svg" className=" w-10 aspect-auto" alt="logo" />
+        <img src="/Logo.svg" className=" w-10 aspect-auto" alt="logo" />
         <h1 className=" text-itconfig-blue-dark text-3xl font-[800] font-inter">
           IT Config
         </h1>
       </div>
-      <div className=" flex flex-col gap-3 w-full font-roboto text-lg font-medium capitalize">
+      <div className=" flex flex-col gap-3 w-full font-roboto text-base font-medium capitalize">
         {sidebarMenu.map((item, index) => {
           return (
             <button
               key={index}
               onClick={() => handleClick(item)}
-              className={`w-full rounded-md text-itconfig-blue-dark hover:bg-itconfig-mauve/20 transition-all duration-300  flex flex-row justify-start items-center gap-4 text px-4 py-3 ${
+              className={`w-full rounded-md text-itconfig-blue-dark hover:bg-itconfig-mauve/20 transition-all duration-300  flex flex-row justify-start items-center gap-4 px-4 py-3 ${
                 selectedMenu === item.title ? " bg-itconfig-mauve/20" : ""
               } `}
             >

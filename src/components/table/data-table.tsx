@@ -68,15 +68,15 @@ export function DataTable<TData, TValue>({
       <div className="flex items-center py-4">
         <Input
           placeholder="Filter usernames..."
-          value={(table.getColumn("email")?.getFilterValue() as string) ?? ""}
+          value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
           onChange={(event) =>
-            table.getColumn("email")?.setFilterValue(event.target.value)
+            table.getColumn("name")?.setFilterValue(event.target.value)
           }
-          className="max-w-sm"
+          className=" text-lg max-w-lg py-2 "
         />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="ml-auto">
+            <Button variant="outline"  className=" bg-itconfig-mauve hover:bg-itconfig-mauve/80 ml-auto text-itconfig-bgColor">
               Columns
             </Button>
           </DropdownMenuTrigger>
@@ -156,6 +156,7 @@ export function DataTable<TData, TValue>({
         <div className="flex items-center justify-end space-x-2 py-4">
           <Button
             variant="outline"
+            className=" bg-itconfig-mauve hover:bg-itconfig-mauve/80 text-itconfig-bgColor"
             size="sm"
             onClick={() => table.previousPage()}
             disabled={!table.getCanPreviousPage()}
@@ -164,6 +165,7 @@ export function DataTable<TData, TValue>({
           </Button>
           <Button
             variant="outline"
+            className=" bg-itconfig-mauve hover:bg-itconfig-mauve/80 text-itconfig-bgColor"
             size="sm"
             onClick={() => table.nextPage()}
             disabled={!table.getCanNextPage()}

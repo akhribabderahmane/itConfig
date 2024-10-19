@@ -165,14 +165,16 @@ export const columns: ColumnDef<Payment>[] = [
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuLabel>Actions</DropdownMenuLabel>
-            <DropdownMenuItem
-              onClick={() => navigator.clipboard.writeText(payment.id)}
-            >
-              <Button  className=" bg-itconfig-red text-sm">desconnect</Button>
+            <DropdownMenuItem className=" flex justify-center items-center">
+              <Button variant="primary" className=" bg-itconfig-red hover:bg-itconfig-red/90 text-sm w-full">desconnect</Button>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>View customer</DropdownMenuItem>
-            <DropdownMenuItem>View payment details</DropdownMenuItem>
+            <DropdownMenuItem className=" flex justify-center items-center">
+              <Button variant="primary" className="  bg-red-500 hover:bg-red-500/90 text-sm text-itconfig-bgColor w-full">Ban</Button>
+            </DropdownMenuItem>
+            <DropdownMenuItem className=" flex justify-center items-center">
+              <Button variant="primary" className=" bg-green-500 hover:bg-green-500/90 text-sm text-itconfig-bgColor w-full">connect</Button>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       );
